@@ -224,7 +224,7 @@ export class ReactNativeEsbuildBundler extends BundlerEventEmitter {
       },
       logLevel: 'silent',
       bundle: true,
-      sourcemap: true,
+      sourcemap: false,
       minify: bundleOptions.minify,
       metafile: bundleOptions.metafile,
       write: mode === 'bundle',
